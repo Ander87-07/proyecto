@@ -10,3 +10,17 @@ h1{
 p{
     font-size: 24px;
 }
+
+image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagenes img{
+    width: 25%;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
